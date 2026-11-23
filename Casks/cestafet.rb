@@ -6,25 +6,25 @@ cask "cestafet" do
     end
   end
 
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "08c84ec4594df57cd9e70df2dc5944c1c6ee858ff04788d7b863f01272aebcb3"
+      sha256 "105c0dcb45f0987ee49141a56562db74b3a3dcfa2aba64c3e2f8dab199fd1f67"
       url "https://github.com/orkono/cestafet/releases/download/v#{version}/cestafet_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "522c0ee908cfb279a4863641274cf1562733b8054039da58db52f1f24a63846f"
+      sha256 "5d792fb3a2db9efa5fc22589603c8fc150dadf57f8764f1075c9bddd658abee0"
       url "https://github.com/orkono/cestafet/releases/download/v#{version}/cestafet_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "e22234b3544afcb78b08cbd55d052bb7695ff498beb9d34dc0f2d803b7d7913c"
+      sha256 "8d82c081e03515bdee00bc1f15440852a2127f762da9efee7965762034db6063"
       url "https://github.com/orkono/cestafet/releases/download/v#{version}/cestafet_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "33a6cce206cc9cc860608a56f7508d388d6bbd8554c0743da77cdea543482f53"
+      sha256 "bd4dc1ea16d47ae47e867e23fa4a8e284e46849873314f7d4729e4b20390921a"
       url "https://github.com/orkono/cestafet/releases/download/v#{version}/cestafet_#{version}_linux_amd64.tar.gz"
     end
   end
