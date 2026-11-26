@@ -1,26 +1,26 @@
 cask "lecend" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      sha256 "bc6d3434934b47d5e775c39255c7056a0e2f54d575a35d900abdb51e5701c950"
+      sha256 "18731f0c2b39f54e0ee0cb47f13162281ed927a70f6908af56e92c2ab916ccd5"
       url "https://github.com/orkono/lecend/releases/download/v#{version}/lecend-v#{version}-aarch64-apple-darwin.tar.gz"
       binary "lecend-v#{version}-aarch64-apple-darwin/lecend"
     end
     on_intel do
-      sha256 "3852cc32b124a260365a52f94cc24c3ed158045c47b810f1b17882f5b62e5070"
+      sha256 "e194c88f353ba205366ba5289edc3697c78451f6efc0d5e581ff3ce9dba5f55c"
       url "https://github.com/orkono/lecend/releases/download/v#{version}/lecend-v#{version}-x86_64-apple-darwin.tar.gz"
       binary "lecend-v#{version}-x86_64-apple-darwin/lecend"
     end
   end
   on_linux do
     on_arm do
-      sha256 "875b95d8df70c6df72077e2514394c842156f4093769be700bd5db795919273b"
+      sha256 "a07c15cbcc568fe3dea382a174ff1eaa8af1984f3baad435df18bfba8dc8bc06"
       url "https://github.com/orkono/lecend/releases/download/v#{version}/lecend-v#{version}-aarch64-unknown-linux-gnu.tar.gz"
       binary "lecend-v#{version}-aarch64-unknown-linux-gnu/lecend"
     end
     on_intel do
-      sha256 "de91f79d115ad9680d803da8c858f3bf594ba7b574c2514ceea402bbcb8f9359"
+      sha256 "82784e3e5855de0c06f3176d2debe65047c8b27311b54bfd575d2e12865ca37f"
       url "https://github.com/orkono/lecend/releases/download/v#{version}/lecend-v#{version}-x86_64-unknown-linux-gnu.tar.gz"
       binary "lecend-v#{version}-x86_64-unknown-linux-gnu/lecend"
     end
